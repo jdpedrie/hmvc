@@ -1,0 +1,31 @@
+{
+    "name": "ql/hmvc",
+    "description": "HMVC Modules for Silex",
+    "require": {
+        "silex/silex": "~1.1.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Sims",
+            "email": "danielsims@quickenloans.com"
+        },
+        {
+            "name": "John Pedrie",
+            "email": "johnpedrie@quickenloans.com"
+        },
+        {
+            "name": "James Pozenel",
+            "email": "jamespozenel@quickenloans.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "QL\\HMVC\\": "src"
+        }
+    }
+}
